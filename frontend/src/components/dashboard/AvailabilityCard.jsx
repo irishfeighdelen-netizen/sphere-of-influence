@@ -24,7 +24,7 @@ const AvailabilityCard = () => {
         const token = localStorage.getItem("token");
 
         const response = await fetch(
-          `http://localhost:5000/api/availability/mentor/${currentUserId}`,
+          `${import.meta.env.VITE_API_URL}/api/availability/mentor/${currentUserId}`,
           {
             headers: {
               Authorization: `Bearer ${token}`,
@@ -79,7 +79,7 @@ const AvailabilityCard = () => {
       const token = localStorage.getItem("token");
 
       const response = await fetch(
-        "http://localhost:5000/api/availability",
+        `${import.meta.env.VITE_API_URL}/api/availability`,
         {
           method: "POST",
           headers: {
@@ -123,7 +123,7 @@ const AvailabilityCard = () => {
       const token = localStorage.getItem("token");
 
       const response = await fetch(
-        `http://localhost:5000/api/availability/${id}`,
+        `${import.meta.env.VITE_API_URL}/api/availability/${id}`,
         {
           method: "DELETE",
           headers: {

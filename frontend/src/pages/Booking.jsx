@@ -15,7 +15,7 @@ const Booking = () => {
       const token = localStorage.getItem("token");
 
       const response = await fetch(
-        `http://localhost:5000/api/users/mentors/${mentorId}`,
+        `${import.meta.env.VITE_API_URL}/api/users/mentors/${mentorId}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -46,7 +46,7 @@ useEffect(() => {
       const token = localStorage.getItem("token");
 
       const response = await fetch(
-        `http://localhost:5000/api/availability/mentor/${mentorId}`,
+        `${import.meta.env.VITE_API_URL}/api/availability/mentor/${mentorId}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -85,7 +85,7 @@ useEffect(() => {
     const token = localStorage.getItem("token");
 
     const response = await fetch(
-      "http://localhost:5000/api/bookings",
+      `${import.meta.env.VITE_API_URL}/api/bookings`,
       {
         method: "POST",
         headers: {

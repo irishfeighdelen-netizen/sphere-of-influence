@@ -25,7 +25,7 @@ const MenteeDashboard = () => {
         const token = localStorage.getItem("token");
 
         const response = await fetch(
-          `http://localhost:5000/api/users/${currentUserId}`,
+          `${import.meta.env.VITE_API_URL}/api/users/${currentUserId}`,
           {
             headers: {
               Authorization: `Bearer ${token}`,
@@ -62,7 +62,7 @@ const MenteeDashboard = () => {
         const token = localStorage.getItem("token");
 
         const response = await fetch(
-          "http://localhost:5000/api/bookings",
+          `${import.meta.env.VITE_API_URL}/api/bookings`,
           {
             headers: {
               Authorization: `Bearer ${token}`,

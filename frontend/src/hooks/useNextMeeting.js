@@ -9,7 +9,7 @@ export const useNextMeeting = (userId, role) => {
         const token = localStorage.getItem("token");
 
         const response = await fetch(
-          "http://localhost:5000/api/bookings",
+          `${import.meta.env.VITE_API_URL}/api/bookings`,
           {
             headers: {
               Authorization: `Bearer ${token}`,

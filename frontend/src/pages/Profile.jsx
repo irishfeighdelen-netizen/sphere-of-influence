@@ -45,7 +45,7 @@ const Profile = () => {
       const token = localStorage.getItem("token");
 
       const response = await fetch(
-        `http://localhost:5000/api/users/${user.id}`,
+        `${import.meta.env.VITE_API_URL}/api/users/${user.id}`,
         { 
         method: "PATCH",
         headers: {
