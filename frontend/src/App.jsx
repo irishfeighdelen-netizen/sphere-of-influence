@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import PublicNavbar from "./components/PublicNavbar";
 import RoleNavBar from "./components/RoleNavBar";
 import ProtectedRoute from "./components/ProtectedRoute";
+import Footer from "./components/Footer";
 
 import Home from "./pages/Home";
 import Login from "./pages/Login";
@@ -13,7 +14,7 @@ import MentorDashboard from "./pages/MentorDashboard";
 import Profile from "./pages/Profile";
 import DiscoverMentors from "./components/dashboard/DiscoverMentors";
 import Booking from "./pages/Booking";
-import Footer from "./components/Footer";
+
 
 import "./App.css";
 
