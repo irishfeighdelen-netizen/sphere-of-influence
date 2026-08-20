@@ -1,0 +1,33 @@
+{
+  "meetings": [
+    {
+      "id": 1,
+      "mentorId": 2,
+      "menteeId": 1,
+      "date": "2026-07-15",
+      "startTime": "2:00 PM",
+      "status": "Confirmed"
+    },
+      {
+      "id": 2,
+      "mentorId": 2,
+      "menteeId": 1,
+      "date": "2026-07-17",
+      "startTime": "10:00 AM"
+    },
+    {
+      "id": 3,
+      "mentorId": 2,
+      "menteeId": 1,
+      "date": "2026-07-24",
+      "startTime": "3:00 PM"
+    },
+    {
+      "id": 4,
+      "mentorId": 3,
+      "menteeId": 1,
+      "date": "2026-07-28",
+      "startTime": "3:00 PM"
+    }
+  ]
+}

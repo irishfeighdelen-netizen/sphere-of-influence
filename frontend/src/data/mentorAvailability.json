@@ -1,0 +1,140 @@
+{
+  "availability": [
+    {
+      "id": 1,
+      "mentorId": 2,
+      "date": "2026-07-08",
+      "startTime": "09:00 AM",
+      "endTime": "10:00 AM",
+      "status": "available"
+    },
+    {
+      "id": 2,
+      "mentorId": 2,
+      "date": "2026-07-09",
+      "startTime": "2:00 PM",
+      "endTime": "3:00 PM",
+      "status": "available"
+    },
+    {
+      "id": 3,
+      "mentorId": 2,
+      "date": "2026-07-11",
+      "startTime": "10:30 AM",
+      "endTime": "11:30 AM",
+      "status": "booked"
+    },
+    {
+      "id": 4,
+      "mentorId": 2,
+      "date": "2026-07-14",
+      "startTime": "16:00",
+      "endTime": "17:00",
+      "status": "available"
+    },
+    {
+      "id": 5,
+      "mentorId": 3,
+      "date": "2026-07-08",
+      "startTime": "13:00",
+      "endTime": "14:00",
+      "status": "available"
+    },
+    {
+      "id": 6,
+      "mentorId": 3,
+      "date": "2026-07-10",
+      "startTime": "09:30",
+      "endTime": "10:30",
+      "status": "available"
+    },
+    {
+      "id": 7,
+      "mentorId": 3,
+      "date": "2026-07-12",
+      "startTime": "3:30 PM",
+      "endTime": "4:30 PM",
+      "status": "booked"
+    },
+    {
+      "id": 8,
+      "mentorId": 3,
+      "date": "2026-07-15",
+      "startTime": "11:00 AM",
+      "endTime": "12:00 PM",
+      "status": "available"
+    },
+    {
+      "id": 8,
+      "mentorId": 3,
+      "date": "2026-07-14",
+      "startTime": "10:00 AM",
+      "endTime": "11:00 AM",
+      "status": "available"
+    },
+    {
+      "id": 9,
+      "mentorId": 3,
+      "date": "2026-07-16",
+      "startTime": "2:00 PM",
+      "endTime": "3:00 PM",
+      "status": "available"
+    },
+    {
+      "id": 10,
+      "mentorId": 3,
+      "date": "2026-07-18",
+      "startTime": "9:00 AM",
+      "endTime": "10:00 AM",
+      "status": "booked"
+    },
+    {
+      "id": 11,
+      "mentorId": 4,
+      "date": "2026-07-13",
+      "startTime": "1:00 PM",
+      "endTime": "2:00 PM",
+      "status": "available"
+    },
+    {
+      "id": 12,
+      "mentorId": 4,
+      "date": "2026-07-15",
+      "startTime": "10:30 AM",
+      "endTime": "11:30 AM",
+      "status": "available"
+    },
+    {
+      "id": 13,
+      "mentorId": 4,
+      "date": "2026-07-17",
+      "startTime": "4:00 PM",
+      "endTime": "5:00 PM",
+      "status": "booked"
+    },
+    {
+      "id": 14,
+      "mentorId": 5,
+      "date": "2026-07-14",
+      "startTime": "11:00 AM",
+      "endTime": "12:00 PM",
+      "status": "available"
+    },
+    {
+      "id": 15,
+      "mentorId": 5,
+      "date": "2026-07-16",
+      "startTime": "3:00 PM",
+      "endTime": "4:00 PM",
+      "status": "available"
+    },
+    {
+      "id": 16,
+      "mentorId": 5,
+      "date": "2026-07-19",
+      "startTime": "9:30 AM",
+      "endTime": "10:30 AM",
+      "status": "booked"
+    }
+  ]
+}

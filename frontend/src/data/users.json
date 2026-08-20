@@ -1,0 +1,110 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "role": "mentee",
+      "firstName": "Ian",
+      "lastName": "Dela Cruz",
+      "username": "ian",
+      "email": "ian@example.com",
+      "password": "123",
+     
+      "linkedin": "www.linkedin.com",
+      "jobTitle": "Web Developer",
+      "skills": ["HTML", "CSS", "JavaScript"],
+      "bio": "I am a passionate web developer with experience in building responsive websites.",
+      "photo": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmVzc2lvbmFsfGVufDB8fDB8fHww"
+    },
+    {
+      "id": 2,
+      "role": "mentor",
+      "firstName": "Sarah",
+      "lastName": "Chen",
+      "username": "sarah",
+      "email": "sarah@example.com",
+      "password": "123",
+
+      "linkedin": "https://linkedin.com/in/sarah",
+      "jobTitle": "Chief People Officer",
+      "company": "Microsoft",
+      "bio": "Executive coach with 20+ years of leadership experience.",
+      "photo": "https://images.squarespace-cdn.com/content/v1/572e050c4d088ea3a8f0ac9d/1572711304319-K2K7Y2PKAW0QVJLQGVW7/Atlanta-Professional-Headshots-1.jpg",
+      "sphereOfInfluence": [
+        "Leadership",
+        "Culture",
+        "Executive Coaching"
+      ],
+      "meetingPlatform": "Google Meet",
+      "meetingLink": "www.google.com"
+    },
+    {
+      "id": 3,
+      "role": "mentor",
+      "firstName": "Bill",
+      "lastName": "Anderson",
+      "username": "bill",
+      "email": "bill@example.com",
+      "password": "123",
+
+      "linkedin": "https://linkedin.com/in/bill",
+      "jobTitle": "Chief Marketing Officer",
+      "company": "Vertex Global",
+      "bio": "Marketing executive with over 18 years of experience helping organizations build customer-focused brands and develop high-performing teams. Passionate about mentoring emerging leaders in strategy, communication, and business growth.",
+      "photo": "https://images.unsplash.com/photo-1600180758890-6b94519a8ba6?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cHJvZmlsZSUyMG1hbiUyMHByb2Zlc3Npb25hbHxlbnwwfHwwfHx8MA%3D%3D",
+      "sphereOfInfluence": [
+         "Data Analytics",
+         "Business Intelligence",
+          "SQL",
+         "Data Visualization"
+      ],
+      "meetingPlatform": "Google Meet",
+      "meetingLink": "www.google.com"
+    },
+    {
+  "id": 4,
+  "role": "mentor",
+  "firstName": "Emily",
+  "lastName": "Garcia",
+  "username": "emily",
+  "email": "emily@example.com",
+  "password": "123",
+
+  "linkedin": "https://linkedin.com/in/emilygarcia",
+  "jobTitle": "Director of Human Resources",
+  "company": "Summit Consulting",
+  "bio": "Human resources leader with over 15 years of experience in talent development, leadership coaching, employee engagement, and organizational culture. Passionate about helping professionals grow into confident leaders and build fulfilling careers.",
+  "photo": "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1361&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "sphereOfInfluence": [
+    "Human Resources",
+    "Talent Development",
+    "Leadership Coaching",
+    "Career Growth"
+  ],
+  "meetingPlatform": "Microsoft Teams",
+  "meetingLink": "https://teams.microsoft.com/"
+},
+{
+  "id": 5,
+  "role": "mentor",
+  "firstName": "Marcus",
+  "lastName": "Reyes",
+  "username": "marcus",
+  "email": "marcus@example.com",
+  "password": "123",
+
+  "linkedin": "https://linkedin.com/in/marcusreyes",
+  "jobTitle": "Creative Director",
+  "company": "Studio Eight",
+  "bio": "Creative leader with more than 17 years of experience in branding, visual storytelling, and creative strategy. Enjoys mentoring designers, marketers, and entrepreneurs in developing ideas that inspire and connect with people.",
+  "photo": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZmlsZSUyMG1hbnxlbnwwfHwwfHx8MA%3D%3D",
+  "sphereOfInfluence": [
+    "Creative Direction",
+    "Brand Strategy",
+    "Graphic Design",
+    "Storytelling"
+  ],
+  "meetingPlatform": "Google Meet",
+  "meetingLink": "https://meet.google.com/"
+}
+  ]
+}

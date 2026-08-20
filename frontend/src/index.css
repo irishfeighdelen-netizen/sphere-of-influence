@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+body {
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  background: linear-gradient(to bottom right, #fdf2f8, #eff6ff);
+}
+
+@layer utilities {
+  .heading {
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+  }
+}
