@@ -2,7 +2,7 @@ import { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import PublicNavbar from "./components/PublicNavbar";
-import RoleNavBar from "./components/RoleNavBar";
+import RoleNavbar from "./components/RoleNavbar";
 import ProtectedRoute from "./components/ProtectedRoute";
 import Footer from "./components/Footer";
 
